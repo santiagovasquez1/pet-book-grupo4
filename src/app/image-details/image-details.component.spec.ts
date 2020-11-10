@@ -3,8 +3,12 @@ import { async, ComponentFixture, inject, TestBed } from '@angular/core/testing'
 import { provideRoutes, ActivatedRoute } from '@angular/router';
 import { ImageDetailComponent } from './image-details.component';
 
+<<<<<<< HEAD
 
 describe('ImageDetailsComponent', () => {
+=======
+xdescribe('ImageDetailsComponent', () => {
+>>>>>>> cdbc6f94f7499c80e1c305e3d67ba486e28dd821
   let component: ImageDetailComponent;
   let fixture: ComponentFixture<ImageDetailComponent>;
 

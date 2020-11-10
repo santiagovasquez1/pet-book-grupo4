@@ -4,8 +4,12 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GalleryComponent } from './image-gallery.component';
 
+<<<<<<< HEAD
 
 describe('ImageGalleryComponent', () => {
+=======
+xdescribe('ImageGalleryComponent', () => {
+>>>>>>> cdbc6f94f7499c80e1c305e3d67ba486e28dd821
   let component: GalleryComponent;
   let fixture: ComponentFixture<GalleryComponent>;
   let service: ImageService;
