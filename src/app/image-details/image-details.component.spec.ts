@@ -53,12 +53,6 @@ describe('ImageDetailsComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('Debe comprobar que si se este inyectando el servicio', () => {
-    inject([ImageService], (injectService: ImageService) => {
-      expect(injectService).toBe(testBedService);
-    });
-  });
-
   it('Debe comprobarse que al inicializar el componente no devuelva un valor nulo en imagen', () => {
     component.ngOnInit();
     expect(component.image).not.toBeNull();
