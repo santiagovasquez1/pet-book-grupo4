@@ -9,7 +9,6 @@ describe('ImageService', () => {
     service = new ImageService();
   });
 
-<<<<<<< HEAD
   it('debe crear el servicio', () => {
     expect(service).toBeTruthy();
   });
@@ -41,28 +40,4 @@ describe('ImageService', () => {
 
   });
 
-=======
-  it('debe crearse el servicio', () => {
-    expect(service).toBeTruthy();
-  });
-
-  describe('getImages', () => {
-    it('debe retornar todas las imagenes', () => {
-      let imagenes = service.getImages();
-      expect(imagenes.length).toEqual(5);
-    });
-  });
-
-  describe('getImage', () => {
-    it('debe retornar la imagen con id si existe', () => {
-      let imagene = service.getImage(1);
-      expect(imagene.brand).toEqual('perro');
-    });
-
-    it('debe retornar indefinido si se busca una imagen con id que NO existe', () => {
-      let imagene = service.getImage(100);
-      expect(imagene).toEqual(undefined);
-    });
-  });
->>>>>>> cdbc6f94f7499c80e1c305e3d67ba486e28dd821
 });
